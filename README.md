@@ -33,6 +33,7 @@
 
 ![unnamed](https://github.com/MootazMedhatEzzat/JenkinsLabTask/assets/97257822/932ffbf5-6cbf-4aba-a58a-bb7a9931303e)
 
+![image](https://github.com/MootazMedhatEzzat/JenkinsLabTask/assets/97257822/4026019a-3458-4b03-bec1-34c9373f1c95)
 
 # Task 2
 - Create a bash script file that executes the “ls” command

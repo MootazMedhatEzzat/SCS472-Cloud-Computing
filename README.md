@@ -3,8 +3,14 @@
 # Team members
 - Mootaz Medhat Ezzat Abdelwahab    (20206074)
 
+![image](https://github.com/MootazMedhatEzzat/JenkinsLabTask/assets/97257822/1ce1b4af-e72d-4998-8f9c-4d56e605400d)
+
 # Task 1
 - Install jenkins (optional: using docker image)
+1. Visit the Jenkins Official Website: https://www.jenkins.io/download/.
+2. Download the Jenkins Installer: This will typically be a .msi file.
+3. Run the Installer: Double-click it to run the installer and follow the installation wizard.
+   
 - Complete configuration
 
 ![unnamed](https://github.com/MootazMedhatEzzat/JenkinsLabTask/assets/97257822/b2c2fd7c-a6dc-44b9-9c85-e055b270eb2d)

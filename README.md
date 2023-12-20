@@ -53,6 +53,7 @@ Set the Repository URL.
 ![unnamed](https://github.com/MootazMedhatEzzat/JenkinsLabTask/assets/97257822/230f9130-c7b7-4aea-8f6c-617d4c84f7ba)
 
 Specify the branch (in our case, main).
+
 Set the Script Path to Jenkinsfile.
 
 ![unnamed](https://github.com/MootazMedhatEzzat/JenkinsLabTask/assets/97257822/e1980c61-1282-4157-b9fb-1bd16c03ff08)

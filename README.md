@@ -46,7 +46,14 @@ ___
 
 ![unnamed](https://github.com/MootazMedhatEzzat/JenkinsLabTask/assets/97257822/a021d793-7612-4722-b27e-62dd02df7d2c)
 
+In the Pipeline section, you can either write a pipeline script directly or link to a repository. Since i have pushed the script to a repository, i will choose "Pipeline script from SCM" and select the version control system (in our case, Git).
+
+Set the Repository URL.
+
 ![unnamed](https://github.com/MootazMedhatEzzat/JenkinsLabTask/assets/97257822/230f9130-c7b7-4aea-8f6c-617d4c84f7ba)
+
+Specify the branch (in our case, main).
+Set the Script Path to Jenkinsfile.
 
 ![unnamed](https://github.com/MootazMedhatEzzat/JenkinsLabTask/assets/97257822/e1980c61-1282-4157-b9fb-1bd16c03ff08)
 
@@ -56,3 +63,8 @@ ___
 ![unnamed](https://github.com/MootazMedhatEzzat/JenkinsLabTask/assets/97257822/29a8eda1-1f39-40ed-829f-24dfd802d3e8)
 
 - Create a CI/CD for this by configuring jenkins to pull the repo and execute the bash 
+In your Git repository, create a file named Jenkinsfile that will include the pipeline script.
+
+___
+
+Now, Jenkins will automatically pull the repository, execute the Bash script, and display the results in the console output.

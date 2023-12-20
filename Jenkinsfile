@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Execute Dir Command') {
             steps {
-                bat 'bash dir_script.sh'
+                bat 'dir_script.sh'
             }
         }
     }

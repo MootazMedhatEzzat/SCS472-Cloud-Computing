@@ -1,9 +1,20 @@
 # SCS472-Cloud-Computing-CORBA-Comprehensive-Report
 ---
 
-**Name**: Mootaz Medhat Ezzat Abdelwahab        **Id**: 20206074  
-**Program**: Software Engineering               **Group**: B (S4)  
-**Delivered To**: Prof. Fatma Omara  
+<div style="display: flex; justify-content: space-between;">
+  <div>
+    **Name**: Mootaz Medhat Ezzat Abdelwahab<br>
+    **Program**: Software Engineering
+  </div>
+  <div style="text-align: right;">
+    **Id**: 20206074<br>
+    **Group**: B (S4)
+  </div>
+</div>
+
+<div style="text-align: center; margin-top: 10px;">
+  **Delivered To**: Prof. Fatma Omara
+</div>
 
 ---
 

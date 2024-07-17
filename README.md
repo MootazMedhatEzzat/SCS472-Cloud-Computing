@@ -1,8 +1,11 @@
-# SCS472-Cloud-Computing-Comparative-Analysis-of Bluemix, Windows Azure, and Google App Engine
+# SCS472-Cloud-Computing
 ---
 
 <div align="center">
   <table width="100%">
+    <tr>
+      <td colspan="2" align="center"><strong>(Comparative Analysis of Bluemix, Windows Azure, and Google App Engine)</strong></td>
+    </tr>
     <tr>
       <td align="left"><strong>Name</strong>: Mootaz Medhat Ezzat Abdelwahab</td>
       <td align="right"><strong>Id</strong>: 20206074</td>

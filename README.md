@@ -42,8 +42,8 @@ Ultimately, Bluemix, Windows Azure, and Google App Engine are all powerful PaaS 
 
 ### Comprehensive Comparison (Similarities)
 
-| | Bluemix | Windows Azure | Google App Engine |
-| --- | --- | --- | --- |
+| | Bluemix - Windows Azure - Google App Engine |
+| --- | --- |
 | **Cloud-Based** | All three PaaS offer cloud-based services, allowing developers to develop, deploy, and manage applications without the need for on-premises infrastructure. |
 | **Scalability** | All three PaaS provide auto-scaling capabilities, enabling applications to handle varying workloads efficiently. They can automatically adjust resources based on demand, ensuring optimal performance and cost-effectiveness. |
 | **Comprehensive feature set** | All three offerings provide a comprehensive set of features for developing, deploying, and managing applications, including: <ul><li>Support for a variety of programming languages and frameworks</li><li>Built-in databases and caching services</li><li>Load balancing and traffic management</li><li>Monitoring and logging</li><li>Security and compliance features</li></ul> |

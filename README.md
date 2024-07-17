@@ -11,7 +11,9 @@
 4. Create a CI/CD for this by configuring jenkins to pull the repo and execute the bash file
 
 # Team members
-- Mootaz Medhat Ezzat Abdelwahab    (20206074)
+| Name                                   | Student ID |
+| -------------------------------------- | ---------- |
+| Mootaz Medhat Ezzat Abdelwahab         |  20206074  |
 
 ___
 

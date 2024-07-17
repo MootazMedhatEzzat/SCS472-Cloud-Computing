@@ -1,4 +1,9 @@
 # SCS472-Jenkins-Lab-Task
+Task 1 (3 Grades)
+1- Install jenkins (optional: using docker image)
+2- Complete configuration
+3- Create admin user
+4- Create a pipeline that executes and prints “Hello World”
 
 # Team members
 - Mootaz Medhat Ezzat Abdelwahab    (20206074)

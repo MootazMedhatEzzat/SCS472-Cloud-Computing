@@ -1,74 +1,74 @@
 # SCS472-Cloud-Computing-CORBA-Comprehensive-Report
 
-![image](https://github.com/MootazMedhatEzzat/JenkinsLabTask/assets/97257822/1ce1b4af-e72d-4998-8f9c-4d56e605400d)
+---
 
-# Team members
-| Name                                   | Student ID |
-| -------------------------------------- | ---------- |
-| Mootaz Medhat Ezzat Abdelwahab         |  20206074  |
+## CORBA - Comprehensive Report
 
-___
+**Name**: Mootaz Medhat Ezzat Abdelwahab  
+**Id**: 20206074  
+**Program**: Software Engineering  
+**Group**: B (S4)  
+**Delivered To**: Prof. Fatma Omara  
 
+---
 
-# Task 1
-- Install jenkins (optional: using docker image)
-1. Visit the Jenkins Official Website: https://www.jenkins.io/download/.
-2. Download the Jenkins Installer: This will typically be a .msi file.
-3. Run the Installer: Double-click it to run the installer and follow the installation wizard.
-   
-- Complete configuration
+The evolution of distributed systems necessitated a standardized communication protocol. This led to the development of CORBA, or Common Object Request Broker Architecture, a middleware technology that has a significant role in the field of distributed computing. It enables communication between objects in a distributed environment regardless of their implementation details such as specific operating systems, programming languages, and hardware platforms. In this report, I will provide a comprehensive discussion on aspects related to CORBA, following the outlines below:
 
-![unnamed](https://github.com/MootazMedhatEzzat/JenkinsLabTask/assets/97257822/b2c2fd7c-a6dc-44b9-9c85-e055b270eb2d)
+### Overview
 
-![unnamed](https://github.com/MootazMedhatEzzat/JenkinsLabTask/assets/97257822/9e9e666e-3dbd-4bb7-9862-6474e92d762a)
+#### Definition & Purpose:
+CORBA is a standard defined by the Object Management Group (OMG) designed to facilitate the communication between distributed objects across different platforms and programming languages.
 
-- Create admin user
+#### Main Features:
+- Supporting multiple programming languages and platforms, promoting interoperability.
+- Facilitating communication between objects residing on different machines through the use of Object Request Brokers (ORBs).
+- Using IDL to define interfaces that enable objects to communicate with each other.
 
-![unnamed](https://github.com/MootazMedhatEzzat/JenkinsLabTask/assets/97257822/48bfe23f-0c19-453b-b2be-00fb76eddf5d)
+### Architecture (Main Components)
 
-- Create a pipeline that executes and prints “Hello World”
+The CORBA architecture consists of four main components:
 
-![unnamed](https://github.com/MootazMedhatEzzat/JenkinsLabTask/assets/97257822/eb5317d7-e59c-455e-9cde-3de552ea8967)
+#### Object Request Broker (ORB):
+The ORB acts as a mediator between clients and servers, handling communication and interaction between distributed objects. It provides services such as object activation, object location, and object persistence.
 
-![unnamed](https://github.com/MootazMedhatEzzat/JenkinsLabTask/assets/97257822/9faa2e97-81e5-4221-bee6-931e2223caaa)
+#### Interface Definition Language (IDL):
+The IDL is a language-independent specification used to define interfaces between objects. It serves as a bridge between different programming languages, allowing objects to communicate seamlessly.
 
-![unnamed](https://github.com/MootazMedhatEzzat/JenkinsLabTask/assets/97257822/8ab99c14-47cd-40a3-8c7a-e8230204eaf1)
+#### Object Services:
+CORBA provides various object services, including naming, trading, security, event, and transaction services. These services enhance the functionality and reliability of distributed systems.
 
-![unnamed](https://github.com/MootazMedhatEzzat/JenkinsLabTask/assets/97257822/21183fc2-8941-4912-8f51-c69abdcc9224)
+#### Object Adapters:
+Object Adapters are responsible for mapping the CORBA object model to the underlying programming language's object model. They provide a bridge between the ORB and the object implementation.
 
-![unnamed](https://github.com/MootazMedhatEzzat/JenkinsLabTask/assets/97257822/932ffbf5-6cbf-4aba-a58a-bb7a9931303e)
+### How CORBA Works
 
-![image](https://github.com/MootazMedhatEzzat/JenkinsLabTask/assets/97257822/4026019a-3458-4b03-bec1-34c9373f1c95)
+When a CORBA client wants to invoke a method on a CORBA object, it first obtains a reference to the object from the naming service. The client then sends a request to the ORB, specifying the object reference and the method to be invoked. The ORB marshals the request parameters and sends it to the CORBA server that hosts the object.
 
-# Task 2
-- Create a bash script file that executes the “ls” command
-- Push the bash file into a newly created repo
-- Create a new pipeline item on jenkins
+The CORBA server unmarshals the request parameters and invokes the method on the CORBA object. The server then marshals the result parameters and sends them back to the ORB. The ORB unmarshals the result parameters and returns them to the client.
 
-![unnamed](https://github.com/MootazMedhatEzzat/JenkinsLabTask/assets/97257822/be4dfb1f-6e39-4606-a296-5fcec6f19f07)
+### Advantages (Pros)
 
-![unnamed](https://github.com/MootazMedhatEzzat/JenkinsLabTask/assets/97257822/a021d793-7612-4722-b27e-62dd02df7d2c)
+- Enabling objects written in different programming languages to interact seamlessly, promoting interoperability (Interoperability).
+- Supporting the reuse of existing components, allowing organizations to leverage their investments in legacy systems (Reusability).
+- Providing a scalable architecture, allowing systems to handle increasing loads by distributing objects across multiple servers (Scalability).
+- Allowing objects to be deployed on different platforms, reducing the dependency on a specific operating system or hardware (Portability).
 
-In the Pipeline section, you can either write a pipeline script directly or link to a repository. Since i have pushed the script to a repository, i will choose "Pipeline script from SCM" and select the version control system (in our case, Git).
+### Limitations
 
-Set the Repository URL.
+- CORBA's extensive features and capabilities can make it complex to implement and maintain, requiring expertise and careful planning (Complexity).
+- CORBA's middleware layer introduces additional overhead, which may impact system performance compared to direct communication between objects (Performance Overhead).
+- Developers need to familiarize themselves with CORBA's concepts, IDL, and associated tools, which can require time and effort (Learning Curve).
 
-![unnamed](https://github.com/MootazMedhatEzzat/JenkinsLabTask/assets/97257822/230f9130-c7b7-4aea-8f6c-617d4c84f7ba)
+### CORBA Applications
 
-Specify the branch (in our case, main).
+Several companies and organizations have successfully utilized CORBA in their systems, reaping benefits such as improved interoperability and efficient communication between different platforms. As a simple example of using CORBA is a distributed banking application. The application could consist of two main components:
 
-Set the Script Path to Jenkinsfile.
+#### Client Component (Runs on The User's Computer):
+The client component could use CORBA to invoke methods on the server component to perform tasks such as checking account balances, transferring money, and withdrawing cash.
 
-![unnamed](https://github.com/MootazMedhatEzzat/JenkinsLabTask/assets/97257822/e1980c61-1282-4157-b9fb-1bd16c03ff08)
+#### Server Component (Runs on The Bank's Computer):
+The server component could use CORBA to communicate with other components of the banking system, such as the database and the ATM network.
 
-![unnamed](https://github.com/MootazMedhatEzzat/JenkinsLabTask/assets/97257822/614328c9-27cd-4dd2-aad9-1b15ba40e95c)
+### CORBA & Other Distributed Computing Technologies
 
-![unnamed](https://github.com/MootazMedhatEzzat/JenkinsLabTask/assets/97257822/33fd13a4-5177-45bf-970b-9deaa28fba8d)
-![unnamed](https://github.com/MootazMedhatEzzat/JenkinsLabTask/assets/97257822/29a8eda1-1f39-40ed-829f-24dfd802d3e8)
-
-- Create a CI/CD for this by configuring jenkins to pull the repo and execute the bash 
-In your Git repository, create a file named Jenkinsfile that will include the pipeline script.
-
-___
-
-Now, Jenkins will automatically pull the repository, execute the Bash script, and display the results in the console output.
+CORBA is not the only middleware technology available. Other popular middleware technologies include Java RMI, DCOM, and Web Services. However, CORBA remains a popular choice for developing distributed object applications, especially in enterprise environments due to its unique features and advantages, including support for multiple programming languages and its ability to facilitate communication between different platforms.

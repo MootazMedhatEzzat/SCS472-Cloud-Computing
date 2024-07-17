@@ -1,8 +1,11 @@
-# SCS472-Cloud-Computing-CORBA-Comprehensive-Report
+# SCS472-Cloud-Computing
 ---
 
 <div align="center">
   <table width="100%">
+    <tr>
+      <td colspan="2" align="center"><strong>{ CORBA - Comprehensive Report }</strong></td>
+    </tr>
     <tr>
       <td align="left"><strong>Name</strong>: Mootaz Medhat Ezzat Abdelwahab</td>
       <td align="right"><strong>Id</strong>: 20206074</td>

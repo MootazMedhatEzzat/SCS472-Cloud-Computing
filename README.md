@@ -22,63 +22,44 @@
 
 ---
 
-The evolution of distributed systems necessitated a standardized communication protocol. This led to the development of CORBA, or Common Object Request Broker Architecture, a middleware technology that has a significant role in the field of distributed computing. It enables communication between objects in a distributed environment regardless of their implementation details such as specific operating systems, programming languages, and hardware platforms. In this report, I will provide a comprehensive discussion on aspects related to CORBA, following the outlines below:
+Bluemix, Windows Azure, and Google App Engine are three well-known cloud computing platforms as a service (PaaS). These platforms provide various services (developing, deploying, and managing applications) to help developers create, launch, and handle applications. Although they have some similarities, each platform also has its distinct characteristics and abilities. Let us in this report delve into a comprehensive comparison between these three platforms:
 
 ### Overview
 
-#### Definition & Purpose:
-CORBA is a standard defined by the Object Management Group (OMG) designed to facilitate the communication between distributed objects across different platforms and programming languages.
+#### Bluemix
 
-#### Main Features:
-- Supporting multiple programming languages and platforms, promoting interoperability.
-- Facilitating communication between objects residing on different machines through the use of Object Request Brokers (ORBs).
-- Using IDL to define interfaces that enable objects to communicate with each other.
+Bluemix, offered by IBM, is a cloud computing platform that supports multiple programming languages and frameworks. It provides a wide range of services, including infrastructure management, data analytics, machine learning, and Internet of Things (IoT) capabilities. Bluemix is known for its flexibility and scalability, allowing developers to easily scale their applications based on demand.
 
-### Architecture (Main Components)
+#### Windows Azure (Microsoft Azure)
 
-The CORBA architecture consists of four main components:
+Windows Azure, developed by Microsoft, is another popular cloud computing platform. It offers a comprehensive set of services for building, deploying, and managing applications and services. Windows Azure supports various programming languages and frameworks, and it integrates well with Microsoft's development tools and technologies. One of its notable features is the ability to seamlessly integrate with on-premises infrastructure, making it suitable for hybrid cloud scenarios.
 
-#### Object Request Broker (ORB):
-The ORB acts as a mediator between clients and servers, handling communication and interaction between distributed objects. It provides services such as object activation, object location, and object persistence.
+#### Google App Engine
 
-#### Interface Definition Language (IDL):
-The IDL is a language-independent specification used to define interfaces between objects. It serves as a bridge between different programming languages, allowing objects to communicate seamlessly.
+Google App Engine, developed by Google, focuses on simplicity and ease of use. It allows developers to build and host applications on Google's infrastructure without worrying about managing the underlying infrastructure. Google App Engine supports popular programming languages such as Java, Python, and Go. It also provides automatic scaling, load balancing, and built-in security features, making it an excellent choice for developers who want a hassle-free deployment experience.
 
-#### Object Services:
-CORBA provides various object services, including naming, trading, security, event, and transaction services. These services enhance the functionality and reliability of distributed systems.
+Ultimately, Bluemix, Windows Azure, and Google App Engine are all powerful PaaS offerings that can be used to build, deploy, and manage a wide variety of applications. The best choice for a particular project will depend on the specific needs of the project, such as the required programming languages and frameworks, database and caching services, and pricing requirements.
 
-#### Object Adapters:
-Object Adapters are responsible for mapping the CORBA object model to the underlying programming language's object model. They provide a bridge between the ORB and the object implementation.
+### Comprehensive Comparison (Similarities)
 
-### How CORBA Works
+| Similarities            | Bluemix | Windows Azure | Google App Engine |
+|-------------------------|---------|---------------|--------------------|
+| Cloud-Based             | Yes     | Yes           | Yes                |
+| Scalability             | Yes     | Yes           | Yes                |
+| Comprehensive feature set| Yes     | Yes           | Yes                |
 
-When a CORBA client wants to invoke a method on a CORBA object, it first obtains a reference to the object from the naming service. The client then sends a request to the ORB, specifying the object reference and the method to be invoked. The ORB marshals the request parameters and sends it to the CORBA server that hosts the object.
+All three PaaS provide cloud-based services, enabling developers to develop, deploy, and manage applications without the need for on-premises infrastructure. They also offer auto-scaling capabilities, comprehensive feature sets including support for various programming languages and frameworks, built-in databases and caching services, load balancing, traffic management, monitoring and logging, and security and compliance features.
 
-The CORBA server unmarshals the request parameters and invokes the method on the CORBA object. The server then marshals the result parameters and sends them back to the ORB. The ORB unmarshals the result parameters and returns them to the client.
+### Comprehensive Comparison (Differences)
 
-### Advantages (Pros)
+| Differences              | Bluemix                   | Windows Azure         | Google App Engine           |
+|--------------------------|---------------------------|-----------------------|-----------------------------|
+| Provider                 | IBM                       | Microsoft             | Google                      |
+| Deployment Models        | PaaS                      | PaaS & IaaS           | PaaS                        |
+| Services                 | Emphasizes cognitive computing & AI services through its Watson APIs | Provides a wide range of Microsoft-specific services | Focuses on scalable web applications |
+| Programming Languages    | Java, Python, Node.js, PHP, Ruby | Primarily supports .NET languages: C#, VB.NET; also supports Java, Python, and Node.js | Primarily supports Java, Python, Go; limited support for other languages |
+| Frameworks               | Spring & Django           | -                     | -                           |
+| Databases & caching services | Cloud SQL, Cloud NoSQL DB, Cloud Cache | SQL Azure, Azure Cosmos DB, Azure Redis Cache | Cloud Datastore, Cloud Spanner, Cloud Memorystore |
+| Pricing and Billing      | Varies based on resource usage, storage, data transfer, and additional services | Varies based on resource usage, storage, data transfer, and additional services | Varies based on resource usage, storage, data transfer, and additional services |
 
-- Enabling objects written in different programming languages to interact seamlessly, promoting interoperability (Interoperability).
-- Supporting the reuse of existing components, allowing organizations to leverage their investments in legacy systems (Reusability).
-- Providing a scalable architecture, allowing systems to handle increasing loads by distributing objects across multiple servers (Scalability).
-- Allowing objects to be deployed on different platforms, reducing the dependency on a specific operating system or hardware (Portability).
-
-### Limitations
-
-- CORBA's extensive features and capabilities can make it complex to implement and maintain, requiring expertise and careful planning (Complexity).
-- CORBA's middleware layer introduces additional overhead, which may impact system performance compared to direct communication between objects (Performance Overhead).
-- Developers need to familiarize themselves with CORBA's concepts, IDL, and associated tools, which can require time and effort (Learning Curve).
-
-### CORBA Applications
-
-Several companies and organizations have successfully utilized CORBA in their systems, reaping benefits such as improved interoperability and efficient communication between different platforms. As a simple example of using CORBA is a distributed banking application. The application could consist of two main components:
-
-#### Client Component (Runs on The User's Computer):
-The client component could use CORBA to invoke methods on the server component to perform tasks such as checking account balances, transferring money, and withdrawing cash.
-
-#### Server Component (Runs on The Bank's Computer):
-The server component could use CORBA to communicate with other components of the banking system, such as the database and the ATM network.
-
-### CORBA & Other Distributed Computing Technologies
-
-CORBA is not the only middleware technology available. Other popular middleware technologies include Java RMI, DCOM, and Web Services. However, CORBA remains a popular choice for developing distributed object applications, especially in enterprise environments due to its unique features and advantages, including support for multiple programming languages and its ability to facilitate communication between different platforms.
+Each platform has its unique strengths and features tailored to specific use cases and developer needs.

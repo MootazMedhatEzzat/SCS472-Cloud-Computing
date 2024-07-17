@@ -1,8 +1,5 @@
 # SCS472-Cloud-Computing-CORBA-Comprehensive-Report
 
----
-
-## CORBA - Comprehensive Report
 
 **Name**: Mootaz Medhat Ezzat Abdelwahab  
 **Id**: 20206074  

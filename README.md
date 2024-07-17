@@ -1,4 +1,4 @@
-# SCS472-Cloud-Computing-CORBA-Comprehensive-Report
+# SCS472-Cloud-Computing-Comparative-Analysis-of Bluemix, Windows Azure, and Google App Engine
 ---
 
 <div align="center">

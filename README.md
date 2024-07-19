@@ -18,7 +18,7 @@
       <td align="right"><strong>Group</strong>: B (S4)</td>
     </tr>
     <tr>
-      <td colspan="2" align="center"><strong>Delivered To</strong>: Prof. Fatma Omara</td>
+      <td colspan="2" align="center"><strong>Delivered To</strong>: TA. Ashraf Mohey Eldin Mohamed</td>
     </tr>
   </table>
 </div>

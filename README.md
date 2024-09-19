@@ -82,3 +82,14 @@ The server component could use CORBA to communicate with other components of the
 ### CORBA & Other Distributed Computing Technologies
 
 CORBA is not the only middleware technology available. Other popular middleware technologies include Java RMI, DCOM, and Web Services. However, CORBA remains a popular choice for developing distributed object applications, especially in enterprise environments due to its unique features and advantages, including support for multiple programming languages and its ability to facilitate communication between different platforms.
+
+---
+
+## 💬 Let's Connect
+Feel free to reach out to me if you'd like to collaborate on a project or discuss technology! As a Software Engineer, I'm always open to tackling new challenges, sharing knowledge, and growing through collaborative opportunities.
+
+**Mootaz Medhat Ezzat Abdelwahab**  
+🎓 Software Engineering Graduate | Faculty of Computers and Artificial Intelligence, Cairo University  
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mootaz-medhat-ezzat-abdelwahab-377a60244)
+

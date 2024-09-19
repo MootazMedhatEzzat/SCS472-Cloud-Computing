@@ -81,9 +81,7 @@ Set the Script Path to Jenkinsfile.
 - Create a CI/CD for this by configuring jenkins to pull the repo and execute the bash 
 In your Git repository, create a file named Jenkinsfile that will include the pipeline script.
 
-___
-
-Now, Jenkins will automatically pull the repository, execute the Bash script, and display the results in the console output.
+> **Now, Jenkins will automatically pull the repository, execute the Bash script, and display the results in the console output**.
 
 ---
 
